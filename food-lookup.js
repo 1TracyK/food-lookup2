@@ -23,7 +23,7 @@ function getTagsMarkup(meal) {
     let tags = meal.strTags?.replaceAll(',', ', ');
     if (typeof tags === 'undefined') {
         return '';
-    } else { // else is here for readability
+    } else { // else  for readability
         return `<p>Tags: ${tags}</p>`;
     }
 }

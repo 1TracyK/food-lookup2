@@ -15,13 +15,8 @@ body {
     background-color: lightblue;
     color:blue ;
     font-family: Roboto;
-
 }
 
-#container {
-    min-height: 100%;
-
-}
 
 
 a, a:visited {
@@ -117,6 +112,7 @@ a:active {
     border: 4px ridge gray;
 }
 
+/* **************** footer styles ***************** */
 .outer-footer {
     padding: 15px;
     text-align: center;
@@ -125,11 +121,3 @@ a:active {
     background-color: rgb(5, 5, 26);
   }
 
-.footer {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
-
-}
