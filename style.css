@@ -1,0 +1,135 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+
+  
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    
+    margin: 1rem;
+    background-color: lightblue;
+    color:blue ;
+    font-family: Roboto;
+
+}
+
+#container {
+    min-height: 100%;
+
+}
+
+
+a, a:visited {
+    color: lightskyblue;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+a:active {
+    color: lightgoldenrodyellow;
+}
+
+.main-title {
+    margin: 1rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* ********** form styles ************ */
+.food-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-label {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.text-input {
+    padding: 0.25rem;
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+    color: black;
+}
+
+
+.search-button {
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+
+.button-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  background:blue;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(32, 16, 155, 0.247), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color:white;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-12:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px white
+  (18, 8, 203, 0.69), 0px 0.5px 1pxr white(0, 100, 125, 0.466), 0px 0px 0px 3.5px white (58, 108, 217, 0.5);
+  outline: 0;
+}
+
+/* **************** Meal result styles ***************** */
+.meal-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.meal-container {
+    margin: 1rem;
+    border: 5px inset blue;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.meal-thumbnail {
+    height: 150px;
+    border-radius: 50%;
+    border: 4px ridge gray;
+}
+
+.outer-footer {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(5, 5, 26);
+  }
+
+.footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+
+}
