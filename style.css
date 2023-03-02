@@ -31,6 +31,10 @@ a:active {
     color: lightgoldenrodyellow;
 }
 
+main {
+    min-height: 80vh;
+}
+
 .main-title {
     margin: 1rem;
     text-align: center;
