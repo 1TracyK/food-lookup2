@@ -42,7 +42,6 @@ function getMealMarkup(meal) {
     `;
 }
 
-
 function renderRecipes(result) {
     let meals = result.meals; 
     let html = '';
@@ -53,7 +52,7 @@ function renderRecipes(result) {
 }
 
 function getRecipe(recipe) {
-    fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${recipe}`)
+    fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=Pie')
         .then(data => data.json())
         .then(renderRecipes);
 }

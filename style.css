@@ -3,41 +3,29 @@
 html {
     font-size: 16px;
     box-sizing: border-box;
-    
 }
-
   
 *, *::after, *::before {
     box-sizing: inherit;
 }
 
 body {
-    
     margin: 1rem;
-    background: linear-gradient(
-    90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%);
-  color: #fff;
     font-family: Roboto;
+    background: rgb(28, 2, 2);
 }
 
-
-
-a, a:visited {
-    color: lightskyblue;
-}
-
-a:hover {
-    color: lightgreen;
-}
-
-a:active {
-    color: lightgoldenrodyellow;
+.bg-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    display: flex;
+    justify-content:center;
 }
 
 main {
-    min-height: 80vh;
+    min-height: 85vh;
 }
 
 .main-title {
@@ -67,30 +55,28 @@ main {
     color: black;
 }
 
-
 .search-button {
     padding: 0.5rem;
     font-size: 1.25rem;
     cursor: pointer;
 }
 
-
 .button-12 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 6px 14px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
-  border-radius: 6px;
-  border: none;
-
-  background:blue;
-  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(32, 16, 155, 0.247), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
-  color:white;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+  
+    background: brown;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(32, 16, 155, 0.247), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+    color:white;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
 
 .button-12:focus {
   box-shadow: inset 0px 0.8px 0px -0.25px white
@@ -107,7 +93,7 @@ main {
 
 .meal-container {
     margin: 1rem;
-    border: 5px inset blue;
+    border: 7px inset orange;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -122,11 +108,21 @@ main {
 }
 
 /* **************** footer styles ***************** */
-.outer-footer {
-    padding: 15px;
+.footer {
+    padding: 25px;
     text-align: center;
     color: white;
     font-size: 18px;
-    background-color: rgb(10, 10, 116);
+    background-color: rgb(66, 7, 7);
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
   }
+
+h1 {
+   color: orange;
+   margin-top:auto;
+}
+
 
