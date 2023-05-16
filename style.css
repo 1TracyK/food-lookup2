@@ -1,10 +1,14 @@
 
-
 html {
     font-size: 16px;
     box-sizing: border-box;
 }
   
+h1 {
+    color: orange;
+    margin-top:auto;
+ }
+ 
 *, *::after, *::before {
     box-sizing: inherit;
 }
@@ -16,22 +20,11 @@ body {
 }
 
 .bg-img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
     display: flex;
-    justify-content:center;
-}
-
-main {
-    min-height: 85vh;
-}
-
-.main-title {
-    margin: 1rem;
-    text-align: center;
-    letter-spacing: 2px;
+    justify-content: center;  
+    padding: 4px;
+    border-radius: 100%;
+    border-bottom: brown;
 }
 
 /* ********** form styles ************ */
@@ -69,7 +62,6 @@ main {
     font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
     border-radius: 6px;
     border: none;
-  
     background: brown;
     box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(32, 16, 155, 0.247), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
     color:white;
@@ -109,20 +101,15 @@ main {
 
 /* **************** footer styles ***************** */
 .footer {
-    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background:brown;
     text-align: center;
-    color: white;
-    font-size: 18px;
-    background-color: rgb(66, 7, 7);
-    width: 100%;
-    height: 100%;
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-
-h1 {
-   color: orange;
-   margin-top:auto;
+    font-weight: 600;
 }
+
 
 
