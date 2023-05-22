@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <meta http-equiv="refresh" content="30">
-    <title>Recipe Lookup</title>
-    <h1>Recipe Lookup</h1>
-  </head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
 <body>
+<section>
+    <div class="container">
+        <h1 class="brand">Recipe App</h1>
+        <form>
+            <input type="text" placeholder="Search Your Recipe....">
+            <ion-icon name="search"></ion-icon> 
+        </form>
 
-<main>
+        <div class="search result">
+
+            <div class="item">
+              <img src="images/food.png" alt="">
+               <div class="flex-container">
+                  <h1 class="title">This is a recipe</h1>
+                   <a  class="view-button" href="#">View Recipe</a>
+                </div>
+                  <p class="item-data">Calories:120</p>
+            </div>
+
+              <div class="item">
+                  <img src="images/food.png" alt="">
+
+                 <div class="flex-container">
+                     <h1 class="title">This is a recipe</h1>
+                      <a class="view-button" href="#">View Recipe</a>
+                </div>
+                <p class="item-data">Calories:120</p>
+            </div>
+
+                <div class="item">
+                    <img src="images/food.png" alt="">
+                    <div class="flex-container">
+                      <h1 class="title">This is a recipe</h1>
+                      <a class="view-button" href="#">View Recipe</a>
+                    </div>
+                    <p class="item-data">Calories:120</p>
+               </div>
+           </div>
+   </div>
+    </section> 
     
-    <h1>What's your favorite recipe?</h1>
-    <form action= "#" method="GET" class=" food-form  js-food-form">
-        <label class ="input-label">
-            Food:
-            <input type="text" class="text-input js-food-input " name="food-search-input "
-            placeholder="search main ingredient"
-            required0
-            autocomplete="on">
-        </label>
-        <button type="submit" class="button-12">Search</button>
-    </form>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./main.js"></script>
 
-           <div class="bg-img">
-        <img src="images/food12.jpg" alt="">
-     </div>
-
-    <div class="js-meal-list-container meal-list-container"></div>
+   
 
     <footer class="footer"> 
         <p>Copyright &copy 2023 by Tracy Kimbrough | All Rights Reserved.</p>
     </footer>
 
-</main>
 
-<script src="./food-lookup.js"></script>
+
 
 </body>
 </html>
