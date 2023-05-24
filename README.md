@@ -1,15 +1,16 @@
-AS A Cook
-I WANT TO search for recipes of various meals
-SO THAT I can expand my recipes since food is my expression of love
+AS A cook I want to ensure that I get the most out of all of my groceries
+so I've created this website so that I can identify recipes that will include the ingredients
+that I already have .
 
-AS A Food Lover
-I WANT TO contrast different recipes
-SO THAT I can find new meals for friends and family
+Additionally I search for recipes that offer variety
+since food is one of my many expressions of love.
 
-Additionally, AS A person responsible for a household
-I WANT TO look up ingredients of recipes
-SO THAT I can estimate costs of my next purchases
+As a food lover I enjoy offering dishes from many different cultures so that I can
+impress my friends and family.
 
-This project can be accessed at: https://github.com/1TracyK/food-lookup2.git'
+Additionally, AS A person responsible for a houshold I look up ingredients of recipes
+so that I can estimate costs of my next purchases for new recipes.
 
-Courtesy of Web Cefar
+This project can be accessed at: https://1tracyk.github.io/food-lookup2/
+
+This is a project designed by Web Cefar & Zsolt Nagy
