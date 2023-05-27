@@ -17,6 +17,6 @@ so that I can estimate costs of my next purchases for new recipes.
 
 This project can be accessed at: https://1tracyk.github.io/food-lookup2/
 
-Technologies used: javascript, css, html, emamam & vs code
+Technologies used: javascript, css, html, edamam & vs code
 
 This is a project designed by Web Cefar & Zsolt Nagy
